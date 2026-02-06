@@ -10,7 +10,7 @@ This project is an android application that you can save your own quotes in it, 
 6. clear all quotes
 7. export all quotes
 8. change your mode between light mode and dark mode
-##Permissions needed
+## Permissions needed
 1. internet permission, to get the random quote
 2. accessing the download folder, for exporting the quotes
-###This project started at: 15/12/2025 and ended at: 5/2/2026
+### This project started at: 15/12/2025 and ended at: 5/2/2026
