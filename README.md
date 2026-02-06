@@ -1,4 +1,4 @@
-# My Favorite Quoe
+# My Favorite Quoet
 ## Introduction
 This project is an android application that you can save your own quotes in it, or get a random one and save it.
 ## Features
