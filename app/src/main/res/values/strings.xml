@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"My Favorite Quotes"</string>
+    <string name="get_random_quote">"get random quote"</string>
+    <string name="settings">"settings"</string>
+    <string name="my_quote">"My Quote goes here"</string>
+    <string name="author">"The Author name goes here"</string>
+    <string name="there_is_already">"There is already a favorite"</string>
+    <string name="new_quote">"New Quote"</string>
+    <string name="quote">"Quote"</string>
+    <string name="be_favorite">"Be Favorite"</string>
+    <string name="save">"Save"</string>
+    <string name="random_quote">"Random Quote"</string>
+    <string name="cancel">"Cancel"</string>
+    <string name="view">"My Quotes"</string>
+    <string name="favorite_quote">"Favorite quote goes here"</string>
+    <string name="clear">"Clear all quotes"</string>
+    <string name="export">"Export quotes"</string>
+    <string name="mode">"Dark or Light mode"</string>
+    <string name="no_favorite">"You do not have a favorite"</string>
+    <string name="file_downloaded">"File downloaded in your downloads"</string>
+    <string name="my_quote_title">"My Quotes"</string>
+    <string name="can_not_be_favorite">"Already have a favorite"</string>
+    <string name="become_favorite">"This quote becomes your favorite"</string>
+    <string name="remove_favorite">"This quote is no longer your favorite"</string>
+    <string name="add_new_quote">Add new quote</string>
+    <string name="saving">Saved</string>
+    <string name="no_quotes">No quotes to be exported</string>
+    <string name="error">Permissions denied or no quotes to export</string>
+    <string name="quotes_cleared">Quotes Cleared</string>
+</resources>

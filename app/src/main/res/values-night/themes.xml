@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyFavoriteQuotes" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+    <style name="Theme.MyFavoriteQuotes" parent="Base.Theme.MyFavoriteQuotes" />
+    <style name="Theme.MyFavoriteQuotes.Title" parent="Theme.MyFavoriteQuotes">
+        <item name="android:textColor">@color/my_dark_light_blue</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Theme.MyFavoriteQuotes.Normal_Text" parent="Theme.MyFavoriteQuotes">
+        <item name="android:textColor">@color/my_white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="Theme.MyFavoriteQuotes.EditText" parent="Theme.MyFavoriteQuotes">
+        <item name="android:background">@drawable/dark_background_edit_text</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="Theme.MyFavoriteQuotes.CheckBox" parent="Theme.MyFavoriteQuotes">
+        <item name="android:textColor">@color/my_dark_blue</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+    <style name="Theme.MyFavoriteQuotes.Button" parent="Theme.MyFavoriteQuotes">
+        <item name="android:backgroundTint">@color/my_dark_blue</item>
+        <item name="android:textColor">@color/my_white</item>
+    </style>
+    <style name="Theme.MyFavoriteQuotes.Quote" parent="Theme.MyFavoriteQuotes">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/my_white</item>
+    </style>
+    <style name="Theme.MyFavoriteQuotes.Author" parent="Theme.MyFavoriteQuotes">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/my_dark_light_blue</item>
+    </style>
+    <style name="Theme.MyFavoriteQuotes.ImageButton" parent="Theme.MyFavoriteQuotes">
+        <item name="android:tint">@color/my_dark_blue</item>
+        <item name="android:backgroundTint">@color/my_dark_mono_blue</item>
+    </style>
+    <style name="Theme.MyFavoriteQuotes.Nav_Bar" parent="Theme.MyFavoriteQuotes">
+        <item name="android:background">@color/my_dark_mono_chromatic_blue</item>
+    </style>
+</resources>

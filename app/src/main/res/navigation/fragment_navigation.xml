@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_navigation"
+    app:startDestination="@id/view_fragment">
+
+    <fragment
+        android:id="@+id/view_fragment"
+        android:name="com.example.myfavoritequotes.fragments.ViewFragment"
+        android:label="View"
+        tools:layout="@layout/fragment_view"
+        >
+        <action
+            android:id="@+id/action_view_fragment_to_add_fragment"
+            app:destination="@id/add_fragment" />
+        <action
+            android:id="@+id/action_view_fragment_to_settings_fragment"
+            app:destination="@id/settings_fragment" />
+        <action
+            android:id="@+id/action_view_fragment_to_random_quote_fragment"
+            app:destination="@id/random_quote_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/add_fragment"
+        android:name="com.example.myfavoritequotes.fragments.AddFragment"
+        android:label="Add"
+        tools:layout="@layout/fragment_add"
+        />
+
+    <fragment
+        android:id="@+id/settings_fragment"
+        android:name="com.example.myfavoritequotes.fragments.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings"
+        >
+        <action
+            android:id="@+id/action_settings_fragment_to_random_quote_fragment"
+            app:destination="@id/random_quote_fragment" />
+        <action
+            android:id="@+id/action_settings_fragment_to_view_fragment"
+            app:destination="@id/view_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/random_quote_fragment"
+        android:name="com.example.myfavoritequotes.fragments.RandomQuoteFragment"
+        android:label="Random Quote"
+        tools:layout="@layout/fragment_random_quote"
+        >
+        <action
+            android:id="@+id/action_random_quote_fragment_to_settings_fragment"
+            app:destination="@id/settings_fragment" />
+        <action
+            android:id="@+id/action_random_quote_fragment_to_view_fragment"
+            app:destination="@id/view_fragment" />
+    </fragment>
+
+
+</navigation>
